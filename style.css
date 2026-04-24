@@ -1,0 +1,424 @@
+/* ---------- SHARED GENERAL STYLE TAGS ---------- */
+
+* {
+  margin: auto;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 50px !important;
+  line-height: 0.8 !important;
+  /* margin: 20px auto !important; */
+}
+
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px !important;
+}
+
+h4 {
+  color: #FEFEFE;
+  font-weight: bolder !important;
+}
+
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: #DB1211 !important;
+  text-transform: uppercase;
+}
+
+.primary-btn {
+  background: #DB1211;
+  font-weight: 600;
+  background: linear-gradient(#DB1211, #700909);
+  color: #FEFEFE;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 0px;
+  display: block;  /* Ensures the button behaves as a block-level element */
+  width: 100%;     /* Stretches it to the full width of the parent */
+  box-sizing: border-box; /* Includes padding/border in the 100% width calculation */
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid #FEFEFE;
+  border-radius: 5px;
+  color: #FEFEFE;
+  font-weight: 600;
+  padding: 13px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  display: block;  /* Ensures the button behaves as a block-level element */
+  width: 100%;     /* Stretches it to the full width of the parent */
+  box-sizing: border-box; /* Includes padding/border in the 100% width calculation */
+}
+
+.third-btn {
+  background: transparent;
+  border-color: #000;
+  border-radius: 5px;
+  color: #000;
+  padding: 8px 40px;
+  text-transform: uppercase;
+}
+
+.card-link-btn {
+  background: transparent;
+  /* border: 1px solid #FFF; */
+  color: #000;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 15px 0px;
+  display: block;  /* Ensures the button behaves as a block-level element */
+  width: 100%;     /* Stretches it to the full width of the parent */
+  box-sizing: border-box; /* Includes padding/border in the 100% width calculation */
+}
+
+.navbar {
+  background-color: #0B0A0A;
+}
+
+.navbar-brand {
+  margin-left:10px;
+}
+
+.navbar-brand > img {
+  width: 150px;
+  height: 60px;
+}
+
+.navbar-toggler {
+    border: transparent !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+/* .navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+} */
+
+/* .navbar-scrolled {
+  background-color: red;
+} */
+
+.nav-link {
+  color: #FFFFFF !important;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+.linky {
+  font-family: 'Oswald', sans-serif;
+  font-style: italic;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+}
+
+/* .nav-link:hover {
+  color: #FEFEFE !important;
+  text-shadow: red !important;
+  text-shadow: 0 0 35px #DB1211, 0 0 35px #DB1211, 0 0 35px #DB1211, 0 0 35px #DB1211, 0 0 35px #DB1211, 0 0 35px #DB1211, 0 0 35px #DB1211, 0 0 35px #DB1211 !important;
+} */
+
+/* .navbar-nav {
+  margin: 0;
+} */
+
+/* .nav-style {
+  margin: auto 200px !important;
+  justify-content: center !important;
+} */
+
+/* ---------- HOME PAGE STYLE TAGS ---------- */
+
+#hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.01)), url('images/hero-background-img.png');
+  background-size: cover;
+   /* Ensures the image stays centered */
+   background-position: center;
+   /* Optional: reduce height for mobile */
+   background-repeat: no-repeat;
+}
+
+.hero-area {
+    padding: 50px 20px !important;
+}
+
+.hero-area p {
+  color: #FEFEFE;
+  padding: 0px 0px 120px;
+}
+
+#services, #why-us {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.service-card-body {
+  background-color: #161617;
+}
+
+.service-card-title, .service-card-text {
+  color: #FEFEFE !important;
+  text-align: left;
+}
+
+.service-card-title {
+  font-size: 20px !important;
+}
+
+.service-card-footer {
+  background-color: #161617 !important;
+}
+
+.card-link {
+  color: #DB1211;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+#why-us {
+  padding: 50px 10px !important;
+}
+
+.why-sub {
+  padding-bottom: 30px;
+}
+
+.why-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.why-card-text {
+  text-align: left;
+}
+
+.why-card-title {
+  color: #DB1211 !important;
+  font-weight: 700 !important;
+  text-align: left;
+}
+
+ .why {
+  padding: 0px 5px !important;
+ }
+
+#how-it-works {
+  background-color: #0B0A0A;
+  text-align: center;
+  padding: 70px 0;
+}
+
+#how-it-works, #areas, #ready-or-not h2 {
+  color: #FEFEFE !important;
+}
+
+.how-card {
+  width: 330px;
+}
+
+#areas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/background-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 5px;
+}
+
+#areas button {
+  font-size: 16px !important;
+}
+
+.location-button {
+  border: 1px solid #FEFEFE !important;
+  color: #FEFEFE !important;
+  padding: 5px 1px !important;
+  margin: 5px 5px;
+  text-transform: uppercase;
+}
+
+#ready-or-not {
+  background: #DB1211;
+  background: linear-gradient(#DB1211, #700909);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.ready {
+  /* margin: auto 200px;
+  padding: 30px 0; */
+}
+
+.ready h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.ready p {
+  color: #FEFEFE;
+  text-align: center;
+}
+
+.ready-btn {
+  background: #FEFEFE;
+  background: linear-gradient(white);
+  color: #0E0E0E;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;  /* Ensures the button behaves as a block-level element */
+  width: 100%;     /* Stretches it to the full width of the parent */
+  box-sizing: border-box; /* Includes padding/border in the 100% width calculation */
+}
+
+
+/* ---------- SERVICE & PRICING PAGE STYLE TAGS ---------- */
+
+#service-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background-2.png');
+  background-size: cover;
+}
+
+.service-hero-area {
+  padding: 100px 0;
+  color: #FEFEFE;
+}
+
+.package-area {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.package-area h2 {
+  font-size: 60px;
+}
+
+.package-area .card {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/white-background.jpg');
+  background-size: cover;
+  border: none;
+  border-radius: 0;
+  box-shadow:
+  0 10px 20px rgba(0,0,0,0.19),
+  0 6px 6px rgba(0,0,0,0.23);
+}
+
+.package-area .card-title {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.title-size {
+  font-size: 40px !important;
+}
+
+.package-area .card-body {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.package-area img {
+  max-height: 200px;
+}
+
+.service-card-bottom {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.service-card-bottom p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-price {
+  color: #DB1211;
+  font-style: italic;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+#service-options {
+  background-color: #0B0A0A;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#service-options img {
+  border-radius: 0px !important;
+}
+
+#service-options p {
+  color: #FEFEFE;
+}
+
+#service-options .card {
+  background-color: #FFF;
+  border: none;
+  border-radius: 0;
+  box-shadow:
+  0 10px 20px rgba(0,0,0,0.19),
+  0 6px 6px rgba(0,0,0,0.23);
+}
+
+.service-options-card {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/white-background.jpg');
+  background-size: cover;
+}
+
+.service-options-card > p {
+  color: #0B0A0A !important;
+}
+
+.service-options-title {
+  color: #161617 !important;
+  font-size: 25px !important;
+  font-style: italic;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.options-card-price {
+  color: #DB1211;
+  font-style: italic;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#service-options h2 {
+  color: #FEFEFE;
+}
